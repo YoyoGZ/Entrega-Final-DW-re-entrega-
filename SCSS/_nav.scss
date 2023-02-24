@@ -1,0 +1,29 @@
+//botonera
+.bg-nav{background-color: $navColor;
+    ul{
+        display:flex;
+            li{
+                display: flex;
+                color: $blueColor1;
+                font-family: $mainFont;
+                text-decoration: none;
+                list-style: none;
+                font-weight: 800;
+                margin-right: 25px;
+                margin-top: 5px;
+                a{
+                    color:$prodBarisColor;
+                    font-size: $fontSizeMd;
+                    text-decoration: underline;
+                    &:hover{
+                        color: $TercColor;
+                    }
+                }
+            }
+        }
+    }
+
+.med-logo{
+    width: 25%;
+    height: 201x;
+}
